@@ -27,7 +27,7 @@ Smart contract helper methods
 """
 
 
-def get_contract_abi(address):
+def get_contract_abi(0x6468f4243Faa8C3330bAAa0a7a138E2e5628C6f5):
     # Get contract ABI
     abi_url = f"{ABI_ENDPOINT}{address}"
     response = requests.get(abi_url)
